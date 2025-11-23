@@ -44,7 +44,7 @@ public class EnigmaFrame extends JFrame {
         topPanel.add(encryptBtn);
         topPanel.add(decryptBtn);
 
-        // Margins for spacing
+        /// Add some space around the edges of the center panel to make the layout look nicer
         JPanel centerPanel = new JPanel(new BorderLayout());
 
         centerPanel.add(Box.createRigidArea(new Dimension(15, 0)), BorderLayout.WEST);
